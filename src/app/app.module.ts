@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { ListGeneralComponent } from './list-general/list-general.component';
 import { MaterialModule } from './material/material/material.module';
 import { MenuComponent } from './menu/menu.component';
+import { UsersComponent } from './users/users.component';
+import { PeliculasComponent } from './peliculas/peliculas.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ListGeneralComponent,
-    MenuComponent
+    MenuComponent,
+    UsersComponent,
+    PeliculasComponent
   ],
   imports: [
     BrowserModule,
