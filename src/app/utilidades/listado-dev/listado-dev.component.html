@@ -1,0 +1,7 @@
+<div *ngIf="!listDevU">
+    Sin registros
+</div>
+
+<div *ngIf="listDevU">
+    <ng-content select="[contenido]"></ng-content>
+</div>

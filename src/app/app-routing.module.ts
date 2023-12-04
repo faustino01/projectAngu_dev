@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { PeliculasComponent } from './peliculas/peliculas.component';
 
 const routes: Routes = [
-  {path:'peliculas',component : PeliculasComponent}
+  {path:'peliculas',component : PeliculasComponent},
+  {path:'**',component:PeliculasComponent}
 ];
 
 @NgModule({

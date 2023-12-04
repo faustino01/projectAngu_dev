@@ -8,6 +8,7 @@ import { MaterialModule } from './material/material/material.module';
 import { MenuComponent } from './menu/menu.component';
 import { UsersComponent } from './users/users.component';
 import { PeliculasComponent } from './peliculas/peliculas.component';
+import { ListadoDevComponent } from './utilidades/listado-dev/listado-dev.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { PeliculasComponent } from './peliculas/peliculas.component';
     ListGeneralComponent,
     MenuComponent,
     UsersComponent,
-    PeliculasComponent
+    PeliculasComponent,
+    ListadoDevComponent
   ],
   imports: [
     BrowserModule,

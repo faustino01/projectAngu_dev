@@ -1,1 +1,10 @@
-<p>list-general works!</p>
+<app-listado-dev [listDevU]="ListGeneral">
+    <ng-container contenido >
+        <div class="peliculas-contenedor">
+            <div *ngFor="let ListG of ListGeneral" class="pelicula-contenedor">
+                <img [src]="ListG.path">
+                <p><a> {{ListG.nombre}} </a></p>
+            </div>
+        </div>
+    </ng-container>
+</app-listado-dev>
